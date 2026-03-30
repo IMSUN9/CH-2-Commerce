@@ -65,8 +65,8 @@ public class CommerceSystem {
             if (productChoice == 0) {
                 System.out.println("메인 화면으로 돌아갑니다.");
 
-            } else if (productChoice >= 1 && productChoice <= categories.size()) {
-                Product selectedProduct = products.get(categoryChoice - 1);
+            } else if (productChoice >= 1 && productChoice <= products.size()) {
+                Product selectedProduct = products.get(productChoice - 1);
 
                 System.out.println("선택한 상품: "
                         + selectedProduct.getProductName() + " | "

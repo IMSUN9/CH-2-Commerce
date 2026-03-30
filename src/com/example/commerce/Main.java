@@ -58,7 +58,7 @@ public class Main {
         Customer customer = new Customer("임선구", "sungu4790@naver.com", "GOLD");
 
         // 시스템  실행
-        CommerceSystem commerceSystem = new CommerceSystem(categories,customer,scanner);
+        CommerceSystem commerceSystem = new CommerceSystem(categories, customer, scanner);
         commerceSystem.start();
 
         scanner.close();
