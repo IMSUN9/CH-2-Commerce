@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Product {
+//속성: 상품명, 가격, 설명, 재고
+//생성자: 상품 1개 만들기 위한 초기값 세팅
+//기능: 상품 정보 조회/수정
+
 // 개별 상품 정보를 가지는 클래스
 // 상품명, 가격, 설명, 재고수량
 // 예시: Galaxy S24, 12000000, 최신 스마트폰, 50
@@ -25,38 +29,20 @@ public class Product {
 
 
     // 기능
-
-
     public String getProductName() {
         return productName;
-    }
-
-    public void setProductName(String productName) {
-        this.productName = productName;
     }
 
     public long getProductPrice() {
         return productPrice;
     }
 
-    public void setProductPrice(long productPrice) {
-        this.productPrice = productPrice;
-    }
-
     public String getProductDescription() {
         return productDescription;
     }
 
-    public void setProductDescription(String productDescription) {
-        this.productDescription = productDescription;
-    }
-
     public int getProductStock() {
         return productStock;
-    }
-
-    public void setProductStock(int productStock) {
-        this.productStock = productStock;
     }
 
 

@@ -5,14 +5,20 @@ import java.util.Scanner;
 
 public class CommerceSystem {
 
+// 속성: 카테고리 목록, 고객, Scanner
+//생성자: 시스템 실행에 필요한 재료 받기
+//기능: start()로 프로그램 흐름 제어
+
 
     // 속성
     private List<Product> products;
-    private Scanner scanner = new Scanner(System.in);
+    private Scanner scanner;
+
 
     // 생성자
-    public CommerceSystem(List<Product> products) {
+    public CommerceSystem(List<Product> products, Scanner scanner) {
         this.products = products;
+        this.scanner = scanner;
     }
 
     // 기능
