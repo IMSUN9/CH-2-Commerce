@@ -96,7 +96,11 @@ public class Cart {
             }
         }
         return 0;
+    }
 
+    // 장바구니를 비우는 메서드
+    public void clear() {
+        items.clear();
     }
 
 
